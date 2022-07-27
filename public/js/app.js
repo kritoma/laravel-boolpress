@@ -49370,9 +49370,9 @@ window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\Users\valen\Desktop\boolean\lezioni\laravel-api\resources\js\app.js */"./resources/js/app.js");
-__webpack_require__(/*! C:\Users\valen\Desktop\boolean\lezioni\laravel-api\resources\sass\app.scss */"./resources/sass/app.scss");
-module.exports = __webpack_require__(/*! C:\Users\valen\Desktop\boolean\lezioni\laravel-api\resources\sass\front.scss */"./resources/sass/front.scss");
+__webpack_require__(/*! C:\Users\valen\Desktop\boolean\lezioni\laravel-boolpress\resources\js\app.js */"./resources/js/app.js");
+__webpack_require__(/*! C:\Users\valen\Desktop\boolean\lezioni\laravel-boolpress\resources\sass\app.scss */"./resources/sass/app.scss");
+module.exports = __webpack_require__(/*! C:\Users\valen\Desktop\boolean\lezioni\laravel-boolpress\resources\sass\front.scss */"./resources/sass/front.scss");
 
 
 /***/ })
