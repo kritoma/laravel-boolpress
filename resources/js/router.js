@@ -6,6 +6,7 @@ Vue.use(VueRouter);
 
 import Home from './pages/Home';
 import About from './pages/About';
+import CategoriesPage from './pages/CategoriesPage'
 import SinglePost from './pages/SinglePost';
 import Page404 from './pages/Page404';
 
@@ -22,6 +23,11 @@ const router = new VueRouter({
             path: "/chi-siamo",
             name: "about",
             component: About
+        },
+        {
+            path: "/categorie",
+            name: "categories-page",
+            component: CategoriesPage
         },
         {
             path: "/posts/:slug",
