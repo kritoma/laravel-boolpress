@@ -16,6 +16,6 @@ class CategoryController extends Controller
 
     public function show($slug) {
         $category = Category::where('slug', $slug)->with('posts')->first();
-        return $category;
+        return response()->json($category);
     }
 }
