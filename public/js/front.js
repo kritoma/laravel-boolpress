@@ -2536,7 +2536,12 @@ var render = function render() {
 
   return _c("section", [_c("div", {
     staticClass: "container"
-  }, [_c("h2", [_vm._v(_vm._s(_vm.post.title))])])]);
+  }, [_c("h2", [_vm._v(_vm._s(_vm.post.title))]), _vm._v(" "), _vm.post.image ? _c("img", {
+    attrs: {
+      src: _vm.post.image_path,
+      alt: _vm.post.title
+    }
+  }) : _vm._e()])]);
 };
 
 var staticRenderFns = [];
